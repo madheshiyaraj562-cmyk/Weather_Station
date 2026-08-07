@@ -108,3 +108,72 @@ The primary objectives are to build a device that can:
                                       │ Graphs             │
                                       │ Device Status      │
                                       └────────────────────┘
+
+
+| Component               | Purpose                                                   |
+| ----------------------- | --------------------------------------------------------- |
+| **ESP32-S3**            | Main controller, Wi-Fi, processing, and API communication |
+| **BME280**              | Temperature, humidity, and atmospheric pressure           |
+| **INMP441**             | Digital I²S microphone for voice input                    |
+| **MAX98357A**           | I²S audio amplifier                                       |
+| **3W 4Ω Speaker**       | Spoken audio output                                       |
+| **WS2812B RGB LED**     | Device status and environmental feedback                  |
+| **TTP223 Touch Sensor** | User interaction and wake/sleep control                   |
+| **OLED Display**        | Local sensor and system information                       |
+| **Li-ion/LiPo Battery** | Portable power source                                     |
+| **TP4056 USB-C Module** | Battery charging                                          |
+| **USB-C Power Input**   | External power                                            |
+
+
+
+
+Optional Components
+DFPlayer Mini
+Secondary ESP32 display using ESP-NOW
+Battery fuel gauge
+Ambient light sensor
+Additional environmental sensors
+🌡️ Environmental Monitoring
+
+The BME280 provides local environmental measurements including:
+
+Temperature
+Relative humidity
+Atmospheric pressure
+
+Additional values can be calculated from these measurements, including:
+
+Heat index
+Environmental status
+Historical trends
+Temperature comparisons
+
+🎤 Voice Assistant
+
+A major objective of the project is to allow the user to interact with the station through voice.
+
+The INMP441 microphone captures the user's command, which is then processed by the system.
+
+Example Commands
+"What is the temperature?"
+
+"What's the weather today?"
+
+"What's the humidity?"
+
+"What's the air quality?"
+
+"What's the wind speed?"
+
+"Will it rain today?"
+
+"What is the heat index?"
+
+"What time is it?"
+
+"What is today's date?"
+
+"What's the battery level?"
+
+"Is the device online?"
+The system is designed to support natural-language queries rather than requiring fixed command phrases.
