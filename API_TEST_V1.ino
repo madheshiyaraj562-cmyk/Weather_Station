@@ -239,7 +239,6 @@ void setup() {
   Serial.println();
   Serial.println("======================================");
   Serial.println("  ESP32-S3 IST CLOCK + WEATHER");
-  Serial.println("  Gorakhpur, Uttar Pradesh, India");
   Serial.println("======================================");
 
   connectWiFi();
