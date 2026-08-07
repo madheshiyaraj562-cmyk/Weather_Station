@@ -719,3 +719,15 @@ The goal is to learn how all of these technologies can be combined into one comp
 ---
 
 ⭐ If you find the project interesting, consider giving the repository a star!
+
+---
+
+## 🚀 Stay Tuned
+
+This project is still under active development, with new hardware, software, testing, and design improvements being added along the way.
+
+**More updates, experiments, and the final build are coming soon.**
+
+### Stay tuned! 🌦️⚡🤖
+
+---
