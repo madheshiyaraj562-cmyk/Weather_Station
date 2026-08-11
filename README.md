@@ -1,6 +1,19 @@
-# 🌦️ AI-Powered Smart Weather Station
+# 🌦️ -Smart Weather Station
 
 > **A voice-controlled, connected weather station built around the ESP32-S3 — combining real-time environmental sensing, online weather data, speech recognition, physical interaction, and spoken responses in a custom wall-mounted device.**
+
+---
+<p align="center">
+
+  <a href="https://projectmasterpiecev1.framer.website/">
+
+    🌐 <strong>PROJECT WEBSITE</strong>
+
+  </a>
+
+</p>
+
+---
 
 The **AI-Powered Smart Weather Station** is an ESP32-S3-based smart environmental monitoring system designed to make weather information accessible through natural voice interaction.
 
@@ -205,7 +218,7 @@ The overall system can be thought of as several interconnected layers:
                           ┌───────────────────────┼──────────────┐
                           ▼                       ▼              ▼
                     ┌───────────┐         ┌────────────┐  ┌────────────┐
-                    │ Open-Meteo│         │  Google STT│  │  Arduino   │
+                    │ Open-Meteo│         │     API    │  │  Arduino   │
                     │ Weather   │         │            │  │   Cloud    │
                     └───────────┘         └────────────┘  └────────────┘
                           │                       │
@@ -238,7 +251,7 @@ The overall system can be thought of as several interconnected layers:
 
 | Component                   | Function                     |
 | --------------------------- | ---------------------------- |
-| **ESP32-S3**                | Main microcontroller         |
+| **Wavwshare ESP32-S3 ZERO** | Main microcontroller         |
 | **BME280 / DHT22 + BMP180** | Environmental sensing        |
 | **INMP441 / MAX9814**       | Microphone input             |
 | **DFPlayer Mini**           | MP3 voice and music playback |
@@ -367,7 +380,7 @@ Used for remote monitoring, controls, and OTA functionality.
 │   ├── 0001.mp3
 │   ├── 0002.mp3
 │   ├── ...
-│   └── 0098.mp3
+│   └── 0101.mp3
 │
 ├── prototypes/
 │   └── uno-r4-wifi/
@@ -403,7 +416,7 @@ Place the MP3 files inside the appropriate folder and maintain the required nume
 0002.mp3
 0003.mp3
 ...
-0098.mp3
+0101.mp3
 ```
 
 The filenames are important because the firmware uses the track numbers to construct spoken responses.
@@ -418,7 +431,6 @@ Before uploading the firmware, configure:
 * Wi-Fi password
 * Weather coordinates
 * Time zone
-* Google Speech-to-Text credentials
 * Arduino Cloud configuration
 * Audio settings
 
@@ -517,7 +529,7 @@ Listening Chime
       ↓
 Record Voice
       ↓
-Speech-to-Text
+     API
       ↓
 Command Processing
       ↓
@@ -616,3 +628,6 @@ Printable enclosure files will also be published for makers who want to build th
 ---
 
 > **🌦️ A weather station that doesn't just show the weather — it talks to you.**
+
+Part of MasterPiece Project BY Raj Madheshiya 
+MIT License.
