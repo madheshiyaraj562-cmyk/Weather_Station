@@ -18,6 +18,8 @@ The project is designed as an **open-source hardware and software platform**, in
 
 ---
 
+<img width="2599" height="1680" alt="Image" src="https://github.com/user-attachments/assets/accd77f6-a75c-4b7b-990d-c0eb07653b5d" />
+
 ## ✨ What Makes It Different?
 
 Most DIY weather stations simply measure temperature and display numbers.
