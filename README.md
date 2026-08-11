@@ -6,9 +6,6 @@
 <p align="center">
 
   <a href="https://projectmasterpiecev1.framer.website/">
-
-    🌐 <strong>PROJECT WEBSITE</strong>
-
   </a>
 
 </p>
