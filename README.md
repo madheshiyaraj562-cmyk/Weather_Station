@@ -18,19 +18,13 @@ This project is designed to behave more like a **physical voice-enabled weather 
 
 You can interact with it using commands such as:
 
-> **"What's the temperature?"**
-
-> **"What's the weather like?"**
-
-> **"What's the humidity?"**
-
-> **"What time is it?"**
+> **"Clap "**
 
 The ESP32-S3 processes the request, obtains the required information, and assembles a spoken response from a library of **98 carefully mapped audio clips** stored on a DFPlayer Mini.
 
 The result is a compact device that combines:
 
-**Sensors → Internet → Speech Recognition → Data Processing → Voice Response**
+**Sensors → Internet → API → Data Processing → Voice Response**
 
 ---
 
