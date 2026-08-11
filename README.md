@@ -624,5 +624,7 @@ Printable enclosure files will also be published for makers who want to build th
 
 > **🌦️ A weather station that doesn't just show the weather — it talks to you.**
 
-Part of MasterPiece Project BY Raj Madheshiya 
-MIT License.
+---
+
+### Part of MasterPiece Project BY Raj Madheshiya.
+### MIT License.
