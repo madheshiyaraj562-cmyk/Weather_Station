@@ -1,17 +1,10 @@
-# 🌦️ -Smart Weather Station
+🌦️ Smart Weather Station
 
-> **A voice-controlled, connected weather station built around the ESP32-S3 — combining real-time environmental sensing, online weather data, speech recognition, physical interaction, and spoken responses in a custom wall-mounted device.**
+A voice-controlled, connected weather station built around the ESP32-S3 — combining real-time environmental sensing, online weather data, speech recognition, physical interaction, and spoken responses in a custom wall-mounted device.
 
----
-<p align="center">
+<p align="center"> <a href="https://projectmasterpiecev1.framer.website/"> <strong>🌐 Visit the Project Website</strong> </a> </p>
 
-  <a href="https://projectmasterpiecev1.framer.website/">
-  </a>
-
-</p>
-
----
-
+📖 Overview
 The **AI-Powered Smart Weather Station** is an ESP32-S3-based smart environmental monitoring system designed to make weather information accessible through natural voice interaction.
 
 Instead of relying only on a screen, the station can **listen to a user's request, retrieve live weather information, and respond using spoken audio**. It combines environmental sensors, online APIs, a DFPlayer Mini audio system, touch controls, clap detection, RGB lighting, and an Arduino Cloud dashboard into a single integrated device.
