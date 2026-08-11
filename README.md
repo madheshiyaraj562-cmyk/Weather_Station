@@ -85,7 +85,7 @@ The default prototype location is **Gorakhpur, Uttar Pradesh, India**, but the c
 
 ### 🔊 Offline Spoken Responses
 
-Instead of generating speech dynamically on the ESP32, the project uses a **DFPlayer Mini with a curated library of approximately 98 MP3 clips**.
+Instead of generating speech dynamically on the ESP32, the project uses a **DFPlayer Mini with a curated library of approximately 101 (97-Prompt; 4-Musics) MP3 clips**.
 
 Individual clips can be combined to construct complete responses.
 
