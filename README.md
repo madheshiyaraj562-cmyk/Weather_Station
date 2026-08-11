@@ -73,16 +73,6 @@ The default prototype location is **Gorakhpur, Uttar Pradesh, India**, but the c
 
 ---
 
-### 🗣️ Speech Recognition
-
-Voice commands are converted into text using **Google Cloud Speech-to-Text**.
-
-The resulting text is then interpreted by the ESP32-S3 to determine which action or weather information the user requested.
-
-The project is intentionally designed so that the ESP32-S3 handles the device logic while cloud services provide computationally expensive services such as speech recognition.
-
----
-
 ### 🔊 Offline Spoken Responses
 
 Instead of generating speech dynamically on the ESP32, the project uses a **DFPlayer Mini with a curated library of approximately 98 MP3 clips**.
